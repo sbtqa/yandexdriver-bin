@@ -28,4 +28,4 @@ then
     ADDITIONAL_PARAMS="$ADDITIONAL_PARAMS -Dlinux64.phase.wget=none -Dlinux64.phase.attach=none"
 fi
 
-$(mvn clean deploy --settings .travis/settings.xml -DskipTests=true $ADDITIONAL_PARAMS -Drelease=true -B -U)
+echo `mvn clean deploy --settings .travis/settings.xml -DskipTests=true $ADDITIONAL_PARAMS -Drelease=true -B -U`
