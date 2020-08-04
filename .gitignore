@@ -1,0 +1,10 @@
+/.project
+/target/
+/..travis.yml.swp
+/travis.log
+/nb-configuration.xml
+/.idea/
+qa-utils.iml
+/.vscode/
+/.settings
+/.classpath
