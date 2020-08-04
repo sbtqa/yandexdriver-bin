@@ -17,12 +17,5 @@ deploy:
     skip_cleanup: true
     on:
       repo: sbtqa/yandexdriver-bin
-      branch: master
-      jdk: oraclejdk8
-  - provider: script
-    script: ".travis/deploy.sh"
-    skip_cleanup: true
-    on:
-      repo: sbtqa/yandexdriver-bin
       tags: true
       jdk: oraclejdk8
