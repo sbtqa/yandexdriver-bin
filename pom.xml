@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ru.sbtqa</groupId>
   <artifactId>yandexdriver-bin</artifactId>
-  <version>20.7.3</version>
+  <version>20.8.0</version>
   <name>yandexdriver-bin</name>
   <description>Package yandexdriver as maven artifact</description>
   <url>http://github.com/sbtqa/yandexdriver-bin</url>
@@ -34,15 +34,15 @@
   </scm>
 
   <properties>
-    <win32.version></win32.version>
+    <win32.version>903</win32.version>
     <win32.phase.wget>pre-integration-test</win32.phase.wget>
     <win32.phase.attach>package</win32.phase.attach>
 
-    <linux64.version>176</linux64.version>
+    <linux64.version></linux64.version>
     <linux64.phase.wget>pre-integration-test</linux64.phase.wget>
     <linux64.phase.attach>package</linux64.phase.attach>
 
-    <mac64.version></mac64.version>
+    <mac64.version>893</mac64.version>
     <mac64.phase.wget>pre-integration-test</mac64.phase.wget>
     <mac64.phase.attach>package</mac64.phase.attach>
 
